@@ -24,4 +24,6 @@ Below is my progress through the foundational interview patterns.
 | 9 | [Jump Game I](./LeetCode_Top_Interview_150/1_Array_or_String/9_10_Jump_Game.md) |
 | 10 | [Jump Game II](./LeetCode_Top_Interview_150/1_Array_or_String/9_10_Jump_Game.md) |
 | 11 | [H-Index](./LeetCode_Top_Interview_150/1_Array_or_String/11_H_Index.md) |
+| 12 | [Insert Delete Get Random](./LeetCode_Top_Interview_150/1_Array_or_String/12_Insert_Delete_Get_Random.md) |
+| 13 | [Product of Array except self](./LeetCode_Top_Interview_150/1_Array_or_String/13_Product_of_Array_except_self.md) |
 
