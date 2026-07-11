@@ -38,29 +38,55 @@ randomizedSet.remove(1); // Removes 1 from the set, returns true. Set now contai
 randomizedSet.insert(2); // 2 was already in the set, so return false. <br>
 randomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom() will always return 2.
 
-## Brute Force Solution (Using STL Sort)
 
-1. 
+## Optimal Solution
 
-### Complexity
+To ensure insert and remove operations are done in $O(1)$ time, we need to avoid traversing through the entire array when removing. To achieve this, we use extra space, a map, to store the index in which an element is located.
 
-* **Time Complexity:** 
-* **Space Complexity:** 
+Insert: To insert, we insert at the end of the array. So, the new index is the current size of array before insertion. This is O(1).
 
-## Optimal Solution (Two Pointers)
+Remove: To remove an existing element, we first find the index of that element in the current array. Then we swap the element to remove with the last element of array. Then delete the last element. This way, we ensure that the operation is O(1).
 
-1. 
+getRandom: To get a random element, we generate a random integer of the valid indices.
 
 ```c++
-class Solution {
+class RandomizedSet {
+    unordered_map<int, int> mp;
+    vector<int> values; 
 public:
+    RandomizedSet() {
+        
+    }
     
+    bool insert(int val) {
+        if (mp.find(val) != mp.end()) {
+            return false;
+        }
+        mp[val] = values.size();
+        values.push_back(val);
+        return true;
+    }
+    
+    bool remove(int val) {
+        if (mp.find(val) == mp.end()) {
+            return false;
+        }
+        int idx = mp[val];
+        mp[values.back()] = idx;
+        mp.erase(val);
+        values[idx] = values.back();
+        values.pop_back();
+        return true;
+    }
+    
+    int getRandom() {
+        int idx = rand() % values.size();
+        return values[idx];
+    }
 };
 ```
 
-**Loop Invariant:** 
-
 ### Complexity
 
-* **Time Complexity:** 
-* **Space Complexity:** 
+* **Time Complexity:** $O(1)$
+* **Space Complexity:** $O(n)$
