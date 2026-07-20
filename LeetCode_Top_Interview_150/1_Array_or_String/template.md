@@ -1,10 +1,10 @@
-# 3. Remove Duplicates from Sorted Array
+# 
 
-**Link:** [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+**Link:** []()
 
-**Difficulty:** Easy
+**Difficulty:** 
 
-**Topics:** Array, Two Pointers
+**Topics:** 
 
 ## Problem Description
 
@@ -20,7 +20,7 @@
 * **Output:** 
 * **Explanation:**
 
-## Brute Force Solution (Using STL Sort)
+## Brute Force Solution
 
 1. 
 
@@ -29,7 +29,7 @@
 * **Time Complexity:** 
 * **Space Complexity:** 
 
-## Optimal Solution (Two Pointers)
+## Optimal Solution
 
 1. 
 

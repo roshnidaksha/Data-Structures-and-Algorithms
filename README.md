@@ -27,4 +27,8 @@ Below is my progress through the foundational interview patterns.
 | 12 | [Insert Delete Get Random](./LeetCode_Top_Interview_150/1_Array_or_String/12_Insert_Delete_Get_Random.md) |
 | 13 | [Product of Array except self](./LeetCode_Top_Interview_150/1_Array_or_String/13_Product_of_Array_except_self.md) |
 | 14 | [Gas Station](./LeetCode_Top_Interview_150/1_Array_or_String/14_Gas_Station.md) |
+| 15 | [Candy](./LeetCode_Top_Interview_150/1_Array_or_String/15_Candy.md)
 
+
+
+Note: The solutions were written for personal study purposes and with reference to multiple online sources. If you think the content can be improved I would appreciate really suggestions!

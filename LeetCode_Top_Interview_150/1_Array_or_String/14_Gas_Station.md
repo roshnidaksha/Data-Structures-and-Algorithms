@@ -38,7 +38,7 @@ Therefore, return 3 as the starting index.
 
 The brute force solution would be to try the simulation from every gas station. This would take $O(n^2)$ leading to TLE. 
 
-## Optimal Solution (Two Pointers)
+## Optimal Solution (Greedy)
 
 The optimal solution is obtained by keen observation.
 * If the total amount of gas is less than the total cost, then completing the circuit is impossible.
