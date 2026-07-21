@@ -28,8 +28,9 @@ Below is my progress through the foundational interview patterns.
 | 13 | [Product of Array except self](./LeetCode_Top_Interview_150/1_Array_or_String/13_Product_of_Array_except_self.md) |
 | 14 | [Gas Station](./LeetCode_Top_Interview_150/1_Array_or_String/14_Gas_Station.md) |
 | 15 | [Candy](./LeetCode_Top_Interview_150/1_Array_or_String/15_Candy.md) |
-| 16 | [Roman to Integer](./LeetCode_Top_Interview_150/1_Array_or_String/16_17_Roman_Integer.md) |
-| 17 | [Integer to Roman](./LeetCode_Top_Interview_150/1_Array_or_String/16_17_Roman_Integer.md) |
+| 16 | [Trapping Rain Water](./LeetCode_Top_Interview_150/1_Array_or_String/16_Trapping_Rain_Water.md) |
+| 17 | [Roman to Integer](./LeetCode_Top_Interview_150/1_Array_or_String/17_18_Roman_Integer.md.md) |
+| 18 | [Integer to Roman](./LeetCode_Top_Interview_150/1_Array_or_String/17_18_Roman_Integer.md) |
 
 
 
