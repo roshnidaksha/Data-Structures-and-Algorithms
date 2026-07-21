@@ -1,4 +1,4 @@
-# 3. Candy
+# 15. Candy
 
 **Link:** [Candy](https://leetcode.com/problems/candy)
 
