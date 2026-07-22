@@ -54,6 +54,8 @@ public:
     
     // 0-indexed, inclusive range [L, R]
     int query(int L, int R) {
+        if (L > R) return 0; // Prevent __lg(0) and return identity value
+        
         int j = __lg(R - L + 1);
         // Overlap the two halves to get the answer in O(1)
         return min(st[L][j], st[R - (1 << j) + 1][j]); 

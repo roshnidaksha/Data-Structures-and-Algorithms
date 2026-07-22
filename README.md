@@ -31,7 +31,9 @@ Below is my progress through the foundational interview patterns.
 | 16 | [Trapping Rain Water](./LeetCode_Top_Interview_150/1_Array_or_String/16_Trapping_Rain_Water.md) |
 | 17 | [Roman to Integer](./LeetCode_Top_Interview_150/1_Array_or_String/17_18_Roman_Integer.md.md) |
 | 18 | [Integer to Roman](./LeetCode_Top_Interview_150/1_Array_or_String/17_18_Roman_Integer.md) |
+| 19 | [Length of Last Word](./LeetCode_Top_Interview_150/1_Array_or_String/19_Length_of_Last_Word.md) |
+| 20 | [Longest Common Prefix](./LeetCode_Top_Interview_150/1_Array_or_String/20_Longest_Common_Prefix.md) |
 
 
 
-Note: The solutions were written for personal study purposes and with reference to multiple online sources. If you think the content can be improved I would appreciate really suggestions!
+Note: The solutions were written for personal study purposes and with reference to multiple online sources. If you think the content can be improved I would really appreciate suggestions!
